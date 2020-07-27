@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Manipulate a multi-file web site as if it were a single DOM tree.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "ava"
   },
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/eobrain/dirdom/issues"
   },
-  "homepage": "https://github.com/eobrain/dirdom#readme"
+  "homepage": "https://github.com/eobrain/dirdom#readme",
+  "devDependencies": {
+    "ava": "^3.10.1",
+    "tmp": "^0.2.1"
+  },
+  "dependencies": {
+    "jsdom": "^16.3.0",
+    "passprint": "0.0.1"
+  }
 }
