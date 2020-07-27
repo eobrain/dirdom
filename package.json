@@ -1,0 +1,24 @@
+{
+  "name": "dirdom",
+  "version": "0.0.1",
+  "description": "Manipulate a multi-file web site as if it were a single DOM tree.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eobrain/dirdom.git"
+  },
+  "keywords": [
+    "DOM",
+    "directory",
+    "site"
+  ],
+  "author": "Eamonn O'Brien-Strain",
+  "license": "EPL-1.0",
+  "bugs": {
+    "url": "https://github.com/eobrain/dirdom/issues"
+  },
+  "homepage": "https://github.com/eobrain/dirdom#readme"
+}
