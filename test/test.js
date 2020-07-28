@@ -2,8 +2,8 @@ import test from 'ava'
 import tmp from 'tmp'
 import fs from 'fs'
 import { root } from '../index.js'
-import passprint from 'passprint'
-const { pp } = passprint
+// import passprint from 'passprint'
+// const { pp } = passprint
 
 const { stat, readFile, unlink, rmdir } = fs.promises
 

@@ -1,8 +1,8 @@
 import fs from 'fs'
 import jsdom from 'jsdom'
-import passprint from 'passprint'
+// import passprint from 'passprint'
 const { JSDOM } = jsdom
-const { pp } = passprint
+// const { pp } = passprint
 
 class RootDoc {
   createElement (tagName) {
