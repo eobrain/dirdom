@@ -27,7 +27,7 @@
     "tmp": "^0.2.1"
   },
   "dependencies": {
-    "jsdom": "^16.3.0",
+    "jsdom": "^16.5.0",
     "passprint": "0.0.1"
   }
 }
